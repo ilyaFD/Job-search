@@ -103,6 +103,15 @@ export const Row = styled.div`
     }
 `;
 
+export const Loader = styled.p`
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: 600;
+`;
+
 
 
 

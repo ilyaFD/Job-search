@@ -1,7 +1,7 @@
 import React from "react";
 import { getJobs } from "../../providers/jobs";
 import * as S from '../ui/index.styled';
-import {ListItem, Loader} from "../ui/";
+import {ListItem} from "../ui/";
 
 export default function Home () {
     const [fetchedJobs, setFetchedJobs] = React.useState([]);
@@ -32,7 +32,7 @@ export default function Home () {
         return items.map((item, index) => <ListItem {...item} key={`${item}  ${index}`}/>)
     }
 
-    if (!ready) return <Loader />
+    if (!ready) return <S.Loader>Loading ...</S.Loader>
 
     return (
         <S.Container>
