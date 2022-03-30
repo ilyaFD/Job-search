@@ -7,5 +7,4 @@ export const Wrap = styled.div`
 
 export const Text = styled.span`
     margin-right: 10px;
-    font-weight: 200;
 `;
