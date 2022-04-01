@@ -4,12 +4,10 @@ import Job from "./components/scenes/Job";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  HashRouter
+  Route
 } from "react-router-dom";
 
 export default function App() {
-  console.log(2)
   return (
     <HashRouter>
       <Routes>
