@@ -9,10 +9,11 @@ import {
 } from "react-router-dom";
 
 export default function App() {
+  console.log(2)
   return (
     <HashRouter>
       <Routes>
-        <Route exact path="/Job-search" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/job/:id"  element={<Job />} />
       </Routes>
     </HashRouter>
