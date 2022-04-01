@@ -8,10 +8,11 @@ import {
 } from "react-router-dom";
 
 export default function App() {
+  console.log(Home)
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Job-search" element={<Home />} />
         <Route path="/job/:id"  element={<Job />} />
       </Routes>
     </Router>

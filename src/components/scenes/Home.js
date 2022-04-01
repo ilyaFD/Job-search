@@ -4,6 +4,7 @@ import * as S from '../ui/index.styled';
 import {ListItem} from "../ui/";
 
 export default function Home () {
+    console.log(1)
     const [fetchedJobs, setFetchedJobs] = React.useState([]);
     const [jobs, setJobs] = React.useState([]);
     const [ready, setReady] = React.useState(false);
