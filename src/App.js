@@ -4,17 +4,17 @@ import Job from "./components/scenes/Job";
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 export default function App() {
-  console.log(Home)
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route exact path="/Job-search" element={<Home />} />
         <Route path="/job/:id"  element={<Job />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }

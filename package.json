@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ilyafd.github.io/Job-search/",
   "name": "job-search",
+  "homepage": "https://ilyafd.github.io/Job-search/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

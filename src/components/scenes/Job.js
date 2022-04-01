@@ -23,7 +23,7 @@ export default function Job () {
 
     return (
         <S.Container>
-            <div><Link to={`/Job-search`}>{'< Back'}</Link></div>
+            <div><Link to={`/`}>{'< Back'}</Link></div>
             <S.Title>{title}</S.Title>
             <S.Row>
                 {!!company?.name && <FieldCompany>{company?.name}</FieldCompany>}
