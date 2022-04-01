@@ -4,7 +4,8 @@ import Job from "./components/scenes/Job";
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 export default function App() {
